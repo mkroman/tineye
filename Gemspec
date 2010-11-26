@@ -1,0 +1,19 @@
+#!/usr/bin/gem build
+# encoding: utf-8
+
+Gem::Specification.new do |spec|
+  spec.name    = "tineye"
+  spec.version = "1.0.0"
+  spec.summary = "Tiny library to search for online images on tineye.com."
+
+  spec.author  = "Mikkel Kroman"
+  spec.email   = "mk@maero.dk"
+
+  spec.files = Dir['library/**/*.rb']
+  spec.bindir = "executables"
+  spec.has_rdoc = false
+  spec.require_path = "library"
+  spec.required_ruby_version = ">= 1.9.1"
+end
+
+# vim: set syntax=ruby:
